@@ -14,3 +14,6 @@
 
 # 4. @WebMvcTest
 <a href="https://www.knowledgefactory.net/2023/11/testing-spring-web-controller-with-webmvctest-example.html">Testing Spring Web Controller with @WebMvcTest</a>
+
+# 5. @DataJpaTest
+<a href="https://www.knowledgefactory.net/2023/11/testing-a-jpa-application-with-datajpatest.html">Testing a JPA application With @DataJpaTest</a>
