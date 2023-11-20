@@ -17,3 +17,9 @@
 
 # 5. @DataJpaTest
 <a href="https://www.knowledgefactory.net/2023/11/testing-a-jpa-application-with-datajpatest.html">Testing a JPA application With @DataJpaTest</a>
+
+# 6. @DataJdbcTest 
+<a href="https://www.knowledgefactory.net/2023/11/testing-spring-data-jdbc-application-with-datajdbctest.html">Testing Spring Data JDBC application with @DataJdbcTest </a>
+
+# 7. @JdbcTest 
+<a href="https://www.knowledgefactory.net/2023/11/testing-jdbc-components-with-jdbctest.html">Testing JDBC components with @JdbcTest </a>
