@@ -23,3 +23,6 @@
 
 # 7. @JdbcTest 
 <a href="https://www.knowledgefactory.net/2023/11/testing-jdbc-components-with-jdbctest.html">Testing JDBC components with @JdbcTest </a>
+
+# 8. @DataMongoTest  
+<a href="https://www.knowledgefactory.net/2023/11/testing-a-mongodb-application-with-datamongotest.html">Testing a MongoDB application with @DataMongoTest  </a>
