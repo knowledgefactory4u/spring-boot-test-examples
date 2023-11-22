@@ -2,8 +2,6 @@ package com.knf.dev.demo;
 
 import com.knf.dev.demo.entity.Student;
 import com.knf.dev.demo.service.StudentService;
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -16,6 +14,7 @@ import org.springframework.test.context.jdbc.Sql;
 import org.springframework.web.client.RestTemplate;
 import org.testcontainers.containers.PostgreSQLContainer;
 import org.testcontainers.junit.jupiter.Container;
+import org.testcontainers.junit.jupiter.Testcontainers;
 import org.testcontainers.utility.DockerImageName;
 
 import java.util.Arrays;
@@ -25,6 +24,7 @@ import java.util.stream.Collectors;
 import static org.assertj.core.api.AssertionsForInterfaceTypes.assertThat;
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
+@Testcontainers
 public class StudentApplicationIntegrationTest {
 
 	@Autowired
@@ -38,10 +38,6 @@ public class StudentApplicationIntegrationTest {
 	public static PostgreSQLContainer postgreSQLContainer =
 			new PostgreSQLContainer<>(DockerImageName.parse("postgres:latest"));
 
-	@BeforeAll
-	static void beforeAll(){
-		postgreSQLContainer.start();
-	}
 
 	@Test
 	@Sql({"/clear-data.sql","/test-student-data.sql"})
@@ -97,6 +93,7 @@ public class StudentApplicationIntegrationTest {
 		assertThat(student.getId()).isEqualTo(101);
 		assertThat(student.getAge()).isEqualTo(50);
 	}
+
 	@Test
 	@Sql({"/clear-data.sql","/test-student-data.sql"})
 	void findByAgeLessThan_ReturnsTheListStudents() {
@@ -123,10 +120,4 @@ public class StudentApplicationIntegrationTest {
 		assertThat(students.size()).isEqualTo(2);
 		assertThat(ids).hasSameElementsAs(Arrays.asList(104,103));
 	}
-
-	@AfterAll
-	static void afterAll(){
-		postgreSQLContainer.stop();
-	}
 }
-
