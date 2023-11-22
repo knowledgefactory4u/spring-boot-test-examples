@@ -26,3 +26,6 @@
 
 # 8. @DataMongoTest  
 <a href="https://www.knowledgefactory.net/2023/11/testing-a-mongodb-application-with-datamongotest.html">Testing a MongoDB application with @DataMongoTest  </a>
+
+# 9.Integration Testing with Testcontainers 
+<a href="https://github.com/knowledgefactory4u/spring-boot-test-examples/tree/main/spring-boot-postgresql-testcontainers-example">Spring Boot 3 + PostgreSQL - Integration Testing with Testcontainers - Example</a>
