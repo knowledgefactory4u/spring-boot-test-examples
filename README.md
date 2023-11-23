@@ -29,3 +29,6 @@
 
 # 9.Integration Testing with Testcontainers 
 <a href="https://github.com/knowledgefactory4u/spring-boot-test-examples/tree/main/spring-boot-postgresql-testcontainers-example">Spring Boot 3 + PostgreSQL - Integration Testing with Testcontainers - Example</a>
+
+# 10.Testing a JPA application with @DataJpaTest and Testcontainers 
+<a href="https://www.knowledgefactory.net/2023/11/testing-a-jpa-application-with-datajpatest-and-testcontainers.html">Testing a JPA application with @DataJpaTest and Testcontainers</a>
