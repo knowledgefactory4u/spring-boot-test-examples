@@ -27,14 +27,17 @@
 # 8. @DataMongoTest  
 <a href="https://www.knowledgefactory.net/2023/11/testing-a-mongodb-application-with-datamongotest.html">Testing a MongoDB application with @DataMongoTest  </a>
 
-# 9.Integration Testing with Testcontainers 
+# 9. Integration Testing with Testcontainers 
 <a href="https://github.com/knowledgefactory4u/spring-boot-test-examples/tree/main/spring-boot-postgresql-testcontainers-example">Spring Boot 3 + PostgreSQL - Integration Testing with Testcontainers - Example</a>
 
-# 10.Testing a JPA application with @DataJpaTest and Testcontainers 
+# 10. Testing a JPA application with @DataJpaTest and Testcontainers 
 <a href="https://www.knowledgefactory.net/2023/11/testing-a-jpa-application-with-datajpatest-and-testcontainers.html">Testing a JPA application with @DataJpaTest and Testcontainers</a>
 
-# 11.Spring Boot MongoDB - Integration Testing with Testcontainers 
+# 11. Spring Boot MongoDB - Integration Testing with Testcontainers 
 <a href="https://github.com/knowledgefactory4u/spring-boot-test-examples/tree/main/spring-mongodb-testcontainers-integration-testing">Spring Boot MongoDB - Integration Testing with Testcontainers</a>
+
+# 12. Testing a Data MongoDB application with Testcontainers and @DataMongoTest
+<a href="https://github.com/knowledgefactory4u/spring-boot-test-examples/tree/main/datamongotest-testcontainers-testing-example">Spring Boot - Testing a Data MongoDB application with Testcontainers and @DataMongoTest</a>
 
 # Local setup
 
