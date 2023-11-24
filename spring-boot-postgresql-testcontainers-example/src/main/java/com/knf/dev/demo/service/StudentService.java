@@ -1,7 +1,6 @@
 package com.knf.dev.demo.service;
 
 import com.knf.dev.demo.entity.Student;
-import org.springframework.data.repository.query.Param;
 
 import java.util.List;
 import java.util.Optional;
