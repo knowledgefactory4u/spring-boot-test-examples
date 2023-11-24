@@ -36,3 +36,10 @@
 # 11.Spring Boot MongoDB - Integration Testing with Testcontainers 
 <a href="https://github.com/knowledgefactory4u/spring-boot-test-examples/tree/main/spring-mongodb-testcontainers-integration-testing">Spring Boot MongoDB - Integration Testing with Testcontainers</a>
 
+# Local setup
+
+Step 1: Download or clone the source code from GitHub to the local machine
+
+Step 2:  ```mvn clean install```
+
+Step 3:  ```mvn test```
