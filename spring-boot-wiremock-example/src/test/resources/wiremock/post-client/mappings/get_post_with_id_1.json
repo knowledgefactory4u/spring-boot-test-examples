@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/1"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "userId": 1,
+      "id": 1,
+      "title": "Spring Boot Wire Mock Example",
+      "body": "Testing HTTP clients in Spring Boot app with wiremock"
+    },
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}
